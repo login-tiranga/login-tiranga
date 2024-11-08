@@ -373,6 +373,9 @@
     height: 2.66667rem;
     border-radius: .13333rem;
     text-align: center;
+    background-color: #3c54bb;
+    font-family: 'P-Light';
+    color: #fff;
     line-height: .64rem;
     font-family: Inter;
     font-size: 1.29333rem;
