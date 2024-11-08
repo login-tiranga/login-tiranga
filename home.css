@@ -381,7 +381,7 @@
     font-size: 1.29333rem;
     font-weight: 400;
     margin: 10px;
-    border: .01333rem solid var(--main-color);
+/*     border: .01333rem solid var(--main-color); */
   }
   .manual-btn{
     border: 2px solid rgba(0,0,0,0);
