@@ -369,9 +369,10 @@
 /*     margin: 20px; */
   }
   .logbtn{
-    width: 7.86667rem;
+    width: 9.86667rem;
     height: 2.66667rem;
-    border-radius: .13333rem;
+    border-radius: ;
+    
     text-align: center;
     background-color: #3c54bb;
     font-family: 'P-Light';
@@ -381,7 +382,7 @@
     font-size: 1.29333rem;
     font-weight: 400;
     margin: 10px;
-/*     border: .01333rem solid var(--main-color); */
+    border: .01333rem solid var(--main-color);
   }
   .manual-btn{
     border: 2px solid rgba(0,0,0,0);
