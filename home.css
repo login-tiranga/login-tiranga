@@ -161,6 +161,7 @@
   
 /*       padding-bottom: 22px; */
       font-size: 28px;
+        margin-top: 40px;
     }
     .header .text h3{
       font-weight: 900;
@@ -366,7 +367,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-/*     margin: 20px; */
+    margin-top: 40px;
   }
   .logbtn{
     width: 9.86667rem;
