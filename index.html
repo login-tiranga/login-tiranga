@@ -21,6 +21,25 @@
   gtag('config', 'AW-16764596794');
 </script>
   </head>
+<!-- Event snippet for Purchase conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16764596794/6XaLCMvDtuUZELrk_bk-',
+      'value': 1.0,
+      'currency': 'INR',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 
   
   <body>
