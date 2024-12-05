@@ -1,107 +1,148 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/common.css">
     <script src="https://unpkg.com/swup@3"></script>
     <script src="https://unpkg.com/@swup/preload-plugin@2"></script>
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="icon" href="h5setting_20231017190406lyb3.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" href="./images/h5setting_20231017190406lyb3.ico">
     <title>ESHSR Tiranga</title>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16764596794">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <style>
+        .extra-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
 
-  gtag('config', 'AW-16764596794');
-</script>
-  </head>
-<!-- Event snippet for Purchase conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-16764596794/6XaLCMvDtuUZELrk_bk-',
-      'value': 1.0,
-      'currency': 'INR',
-      'transaction_id': '',
-      'event_callback': callback
-  });
-  return false;
+        .extra-buttons .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: white; */
+            color: #0088cc;
+            border: 2px solid #0088cc;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .extra-buttons .btn:hover {
+            background-color: #0088cc;
+            color: white;
+        }
+
+        .extra-buttons .btn i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .custom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0088cc; /* Telegram blue */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    width: 250px;
 }
-</script>
 
-  
-  <body>
-    
+.custom-btn:hover {
+    background-color: #005a9c; /* Darker blue */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.custom-btn i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.btns2 {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+    align-items: center;
+}
+
+    </style>
+</head>
+
+<body>
+
     <div class="sidebar">
-      <div class="logo-details">
-        
-        <div class="logo_name">Tiranga 2024</div>
-        <i class="bx bx-menu" id="btn"></i>
-      </div>
-
-      <ul class="nav-list">
-        <li>
-          
-        </li>
-        <li>
-          
-        </li>
-      
-        <li>
-          
-        </li>
-        <li>
-          
-        </li>
-      </ul>
+        <div class="logo-details">
+            <div class="logo_name">Tiranga 2023</div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
 
     <section class="header">
-     
       <div class="text">
-			<img src="Tiranga.webp" alt="Tiranga Club" style="cursor: pointer;" 
-			onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww.lottery7j.com%2F%23%2Fregister%3FinvitationCode%3D5147113971482');">
-				<div class="bonus" style="margin-top: 40px;">
-          <img style="width: 100%;" src="Tiranga-Games-Homepage.jpg" alt="Tiranga Club" style="cursor: pointer;" 
-          onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww.lottery7j.com%2F%23%2Fregister%3FinvitationCode%3D5147113971482');">
-          </div>
-<!--          <h1 id="head" style="animation: 2.5s ease 0s 1 normal none running hanimation; opacity: 1;">Tiranga 2024</h1> -->
-		 <div class="btns">
-			<button class="logbtn" onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww.lottery7j.com%2F%23%2Fregister%3FinvitationCode%3D5147113971482');">
-				Login
-			</button>
-			
-			<button class="logbtn" onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww.lottery7j.com%2F%23%2Fregister%3FinvitationCode%3D5147113971482');">
-				Register
-			</button>
-		 </div>
-      </div>
-      <br>
-          
-		  
+          <img src="./images/Tiranga.webp" alt="Tiranga Club" style="cursor: pointer;"
+              onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww%2Etirangaclub%2Eorg%2F%23%2Fregister%3FinvitationCode%3D1757216983833');">
   
-    </section>
-    <section class="litfest" id="second">
+          <div class="bonus" style="margin-top: 20px;">
+              <img style="width: 100%;" src="./images/Tiranga-Games-Homepage.jpg" alt="Tiranga Club"
+                  style="cursor: pointer;"
+                  onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww%2Etirangaclub%2Eorg%2F%23%2Fregister%3FinvitationCode%3D1757216983833');">
+          </div>
+  
+          <div class="btns">
+            
+            <button class="logbtn" onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww%2Etirangaclub%2Eorg%2F%23%2Fregister%3FinvitationCode%3D1757216983833');">
+              Login
+            </button>
+            
+            <button class="logbtn" onclick="window.location.href=decodeURIComponent('https%3A%2F%2Fwww%2Etirangaclub%2Eorg%2F%23%2Fregister%3FinvitationCode%3D1757216983833');">
+              Register
+            </button>
+          </div>
+          <div class="btns2">
+              <!-- 3 New Buttons -->
+              <button class="custom-btn" onclick="window.location.href='https://t.me/gameannouncement';">
+                  <i class="bx bxl-telegram"></i> Join Telegram Channel
+              </button>
+              <button class="custom-btn" onclick="window.location.href='https://t.me/aviblasting';">
+                  <i class="bx bxl-telegram"></i> Contact Us
+              </button>
+              <button class="custom-btn" onclick="window.location.href='https://t.me/aviblasting';">
+                  <i class="bx bxl-telegram"></i> Support for Queries
+              </button>
+          </div>
+      </div>
+  </section>
+  
+    <section class="litfest" id="second" style="
+    max-height: 120vh;
+">
       <div class="textinsecond">
-        <h2>We are back with the most spirited patriotic celebration - Tiranga. A celebration that has been a part of
-EuroSchool HSR.</h2>
+        <h2></h2>
         <br>
-        <p>The Tiranga fest elucidates the nationalism in us. Honouring and rejoicing in the spirit of freedom the
-school echoes with voices and colours of Independence. This day every year is celebrated with
-numerous competitions reminding us of the indomitable soul of our freedom fighters and exulting in the
-joyous spirit of AZADI.
+        <p>
         </p>
         
       </div>
@@ -131,23 +172,23 @@ joyous spirit of AZADI.
           
           
           <div class="slide first">
-            <img src="tira1.jpg" alt="1">
+            <img src="./images/tira1.jpg" alt="1">
           </div>
           <div class="slide">
-            <img src="tira10.jpg" alt="2">
+            <img src="./images/tira10.jpg" alt="2">
           </div>
           <div class="slide">
-            <img src="tira11.jpg" alt="3">
+            <img src="./images/tira11.jpg" alt="3">
           </div>
           
           <div class="slide">
-            <img src="tira3.jpg" alt="4">
+            <img src="./images/tira3.jpg" alt="4">
           </div>  
            <div class="slide">
-             <img src="tira4.jpg" alt="5">
+             <img src="./images/tira4.jpg" alt="5">
            </div>  
             <div class="slide">
-             <img src="tira6.jpg" alt="6">
+             <img src="./images/tira6.jpg" alt="6">
             </div>      
           
           <div class="navigation-auto">
@@ -184,7 +225,7 @@ joyous spirit of AZADI.
       </div>
       <div class="row">
         <div class="col">
-          <img src="flowerflower.jpg" alt="">
+          <img src="./images/flowerflower.jpg" alt="">
           <div class="layer">
             <h3>Blossoms Of Freedom</h3>
             <p>
@@ -194,7 +235,7 @@ joyous spirit of AZADI.
           </div>
         </div>
         <div class="col">
-          <img src="MIME-EVENTS.png" alt="">
+          <img src="./images/MIME-EVENTS.png" alt="">
           <div class="layer">
             <h3>MIME</h3>
             <p>
@@ -205,7 +246,7 @@ joyous spirit of AZADI.
           </div>
         </div>
         <div class="col">
-          <img src="facepainting.jpg" alt="">
+          <img src="./images/facepainting.jpg" alt="">
           <div class="layer">
             <h3>
               Living Art Work
@@ -232,8 +273,6 @@ joyous spirit of AZADI.
     <section class="footer">
       <h4>Euroschool HSR</h4>
     </section>
-    
-
     
     <script>
 
@@ -339,9 +378,6 @@ joyous spirit of AZADI.
                 }
             },1000);
    </script>
-  
+</body>
 
-  
-
-
-</body></html>
+</html>
